@@ -88,8 +88,10 @@ a:hover {
 }
 
 .navigation-container > .menu li.current-menu-item {
-    background: #ff7200;
-    border-bottom: 1px solid #FF1801;
+    /*background: #ff7200;*/
+    background: #92CCA3;
+    /*border-bottom: 1px solid #FF1801;*/
+    border-bottom: 1px solid #4FA268;
     margin-bottom: -1px;
 }
 
@@ -106,7 +108,7 @@ a:hover {
 }
 
 .navigation-container > .menu li > a:hover {
-    border-bottom: 1px solid #FF1801;
+    border-bottom: 1px solid #4FA268;
     margin-bottom: -1px;
 }
 
@@ -134,7 +136,7 @@ a:hover {
 }
 
 .navigation-container > .menu li.current-menu-parent {
-    border-bottom: 1px solid #FF1801;
+    border-bottom: 1px solid #4FA268;
     margin-bottom: -1px;
     background: #f3f3f3;
 }
@@ -175,7 +177,8 @@ a:hover {
 
 .box-header .box-header-line {
     height: 1px;
-    background: #FF7200;
+    /*background: #FF7200;*/
+    background: #4FA268;
     display: inline-block;
     margin: 20px auto;
     width: 215px;
@@ -208,8 +211,9 @@ img.aligncenter {
 }
 
 /** portfolio **/
-ul.portfolio-list {
+.box-content .portfolio-list {
     list-style: none;
+    padding-left: 0;
 }
 
 ul.portfolio-list li.portfolio-item {
@@ -315,17 +319,17 @@ ul.portfolio-list li.portfolio-item .action-box .link a:hover {
     margin: 15px 15px 0 0;
 }
 
-.post-body p {
+p {
     padding: 8px 0;
 }
 
-.post-body ul,
-.post-body ol {
+.text-box ul,
+.text-box ol {
     list-style-type: square;
     padding-left: 40px;
 }
 
-.post-body ol {
+.text-box ol {
     list-style-type: decimal;
 }
 
@@ -350,7 +354,7 @@ ul.portfolio-list li.portfolio-item .action-box .link a:hover {
 
 .post .post-link a:hover {
     text-decoration: none;
-    background: #FF7200;
+    background: #4FA268;
     color: #fff;
 }
 
