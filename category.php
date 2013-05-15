@@ -26,7 +26,13 @@ if (have_posts()):
                 </div>
             </div>
     <?php
-    endwhile; endif;?>
+    endwhile;?>
+    <div class="paginator">
+        <span class="pull-left"><?php previous_posts_link('« Предыдущие записи'); ?></span>
+        <span class="pull-right"><?php next_posts_link('Следующие записи »'); ?></span>
+        <div class="clearfix"></div>
+    </div>
+    <?php endif;?>
     </div>
 </div>
 </div>
