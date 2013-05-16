@@ -9,7 +9,7 @@ the_post();
 #echo do_shortcode('[layerslider id="1"]');
 ?>
     <div class="body-container">
-        <div class="text-box">
+        <div class="text-box" style="border-width: 0;">
             <div class="box-header">
                 <h1><?php the_title() ?></h1>
                 <div class="box-header-line"></div>
