@@ -6,7 +6,8 @@
 get_header();
 if (is_home() or is_front_page()) :
 the_post();
-echo do_shortcode('[layerslider id="1"]');
+#echo do_shortcode('[layerslider id="1"]');
+include (ABSPATH . '/wp-content/plugins/wp-featured-content-slider/content-slider.php');
 ?>
     <div class="body-container">
         <div class="text-box" style="border-width: 0;">
@@ -99,4 +100,4 @@ else:
         </div>
     <?php
     endwhile; endif; endif;
-get_footer();
+get_footer();?>
