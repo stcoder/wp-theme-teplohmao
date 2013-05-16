@@ -72,7 +72,7 @@ a:hover {
 /** menu **/
 .navigation-container {
     text-align: center;
-    border-bottom: 1px solid #dcdcdc;
+    /*border-bottom: 1px solid #dcdcdc;*/
     margin-top: 40px;
 }
 
