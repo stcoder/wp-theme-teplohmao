@@ -6,7 +6,7 @@
 get_header();
 if (is_home() or is_front_page()) :
 the_post();
-echo do_shortcode('[layerslider id="1"]');
+#echo do_shortcode('[layerslider id="1"]');
 ?>
     <div class="body-container">
         <div class="text-box">
